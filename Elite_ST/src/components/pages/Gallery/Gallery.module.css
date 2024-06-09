@@ -1,0 +1,18 @@
+.home {
+    width: 100vw;
+    flex-flow: column;
+      background: url(../../Image/back.jpg),linear-gradient(to top,#111,transparent);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: multiply;
+      background-attachment: fixed;
+      z-index: 20;
+    }
+.images{
+  
+  flex-wrap: wrap;
+  column-count: 4;
+  column-gap: 10px;
+  padding: 40px;
+}
